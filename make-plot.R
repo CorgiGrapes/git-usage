@@ -29,4 +29,5 @@ g #run this to view g
 
 sink(file = "/Users/thihoanguyen/Desktop/year 3/computing/MT/git-usage/out/regression-summary.txt")
 summary(lm(percentage ~ year, data = sods_data))
+sessionInfo()
 sink()
